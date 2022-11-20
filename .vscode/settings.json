@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.preferredDarkColorTheme": "Default Light+",
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "workbench.view.alwaysShowHeaderActions": false,
+    "liveServer.settings.port": 5503
+}

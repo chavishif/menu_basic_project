@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous"
+    />
 </head>
     <div>
       <style>
@@ -66,21 +72,21 @@
         
         <ul>
           <li class="dropdown">
-            <a href="index.html" class="dropbtn">Menu</a>
+            <a href="/" class="dropbtn">Menu</a>
           <li class="dropdown">
-            <a href="page2.html" class="dropdown">Salads</a> 
+            <a href="salad" class="dropdown">Salads</a> 
             <div class="dropdown-content">
               <a href="#">Home fries Salad</a>
               <a href="#">Vegetable salad</a>
               <a href="#">Cucumber salad</a>
           <li class="dropdown">
-            <a href="page3.html" class="dropbtn">Main Dishes</a>
+            <a href="main_dishes" class="dropbtn">Main Dishes</a>
             <div class="dropdown-content">
               <a href="#">Pizza</a>
               <a href="#">Pasta in rosé sauce</a>
               <a href="#">Sweet potato soup</a>
           <li class="dropdown">
-            <a href="page4.html" class="dropbtn">Deserts</a>
+            <a href="Deserts" class="dropbtn">Deserts</a>
             <div class="dropdown-content">
               <a href="#">Chocklate cake</a>
               <a href="#">Banana shake</a>
@@ -139,14 +145,65 @@ figcaption {
     text-align: center;
 }
 </style>
-<figure>
-    <div>
-    <img src="media/cake.jpeg" width="400" height="400" alt="Cake">
-    <figcaption>Chocklate cake</figcaption>
-    <img src="media/icecream.jpeg" width="400" height="400" alt="Ice cream">
-    <figcaption>Vanilla ice-cream</figcaption>
-    <img src="media/shake.jpg" width="400" height="400" alt="Shake">    
-    <figcaption>Banana shake</figcaption> 
+<body> 
+  <div class="card-group">
+    <div class="card">
+      <img
+        src="/static/cake.jpeg"width="250" height="450"
+        class="card-img-top"
+        alt="HomefrizeSalad"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Chocklate cake</h5>
+        <!-- <p class="card-text">
+          
+        </p> -->
+      </div>
+      <div class="card-footer">
+        <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+      </div>
     </div>
+    <div class="card">
+      <img
+        src="/static/shake.jpg"width="250" height="450"
+        class="card-img-top"
+        alt="vegatable Salad"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Banana shake</h5>
+        <!-- <p class="card-text">
+          Pizza
+        </p> -->
+      </div>
+      <div class="card-footer">
+        <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+      </div>
+    </div>
+    <div class="card">
+      <img
+        src="/static/icecream.jpeg"width="250" height="450"
+        class="card-img-top"
+        alt="cucumberSalad"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Vanilla ice-cream</h5>
+        <!-- <p class="card-text"> -->
+        
+        </div>
+      </div>
+      <div class="card-footer">
+        <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+      </div>
+    </div>
+  </div>
+</body>
+    <!-- <div>
+    <img src="/static/cake.jpeg" width="400" height="400" alt="Cake">
+    <figcaption>Chocklate cake</figcaption>
+    <img src="/static/icecream.jpeg" width="400" height="400" alt="Ice cream">
+    <figcaption>Vanilla ice-cream</figcaption>
+    <img src="/static/shake.jpg" width="400" height="400" alt="Shake">    
+    <figcaption>Banana shake</figcaption> 
+    </div> -->
 </body>
 </html>
