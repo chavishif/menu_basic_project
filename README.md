@@ -1,1 +1,1 @@
-Basic project of menu of resteruant
+practice of flask and HTML
